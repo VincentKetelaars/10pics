@@ -31,9 +31,8 @@ When instantiating the client, you will be directed to your browser to authorize
 
 Contribute
 ==========
-
 Feel free to create a PR if you'd like to contribute.
 
-Please make sure to run `make lint-check` before you do!
+Please make sure to run ``make lint-check`` before you do!
 
 
