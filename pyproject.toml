@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "10pics"
+version = "0.1.0"
+description = "10 Pictures"
+authors = ["Vincent Ketelaars <vincent.ketelaars@opendoor.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jupyter = ">=1.0.0"
+google-api-python-client = ">=1.9.1"
+google-auth-oauthlib = ">=0.4.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = ">=3.8.3"
+mypy = ">=0.782"
+black = ">=19.10b0"
+pydocstyle = ">=5.1.0"
+isort = ">=5.4.2"
+
+[build-system]
+requires = ["poetry>=1.0.10"]
+build-backend = "poetry.masonry.api"
